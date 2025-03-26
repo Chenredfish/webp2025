@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<body>
+    <script>
+        var n = 5;
+        var output = '';
+
+        for(i2 = 0; i2 < n - 1; i2++) {
+            output += tree(i2);
+        }
+
+        output += treeTrunk();
+
+        console.log(output);
+
+        function tree(i2) {
+            return printTreeTop(i2);
+        }
+
+        function printTreeTop(i2) {
+            return repeatchar(' ', n - i2 - 1) + repeatchar('*', i2 * 2 + 1) + '\n';
+        }
+
+        function treeTrunk() {
+            return repeatchar(' ', n - 1) + repeatchar('*', 1) + '\n';
+        }
+
+        function repeatchar(char, count) {
+            var line = '';
+            for (var i1 = 0; i1 < count; i1++) {
+                line += char;
+            }
+            return line;
+        }
+    </script>
+</body>
+</html>
