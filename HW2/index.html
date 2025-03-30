@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人介紹</title>
+    <!-- 引入 Bootstrap 和外部 CSS 文件 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- 自定義 CSS 文件 -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="text-center">
+            <img src="your-photo.png" alt="Profile Photo" class="profile-img">
+            <h1 class="mt-3">陳泓瑜</h1>
+            <p class="text-muted">前端學習者 | 設計愛好者 | 程式初學者</p>
+            <div class="text-center mt-3">
+                <a href="https://github.com/yourprofile" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2>關於我</h2>
+                <p>一個長庚大學的資訊工程系大二生，正在研究前端網頁設計，以及如何使用外掛的CSS</p>
+            </div>
+            <div class="col-md-6">
+                <h2>聯絡方式</h2>
+                <ul>
+                    <li>Email: chenredfish940309@gmail.com</li>
+                    <li>Phone: 0905 221 256</li>
+                    <li>Github: <a href="https://github.com/Chenredfish/webp2025.git" target="_blank">https://github.com/Chenredfish/webp2025.git</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="skills mt-5">
+            <h2>技能掌握</h2>
+            <p>HTML</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+            </div>
+            <p>CSS</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <button class="btn btn-primary" onclick="showMore()">查看更多</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function showMore() {
+            alert("更多內容即將更新！");
+        }
+    </script>
+</body>
+</html>
