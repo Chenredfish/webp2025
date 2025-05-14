@@ -1,0 +1,92 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+}
+p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 0.5rem;
+}
+ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+.container {
+    border: 1px solid #dee2e6;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.social-icon {
+    font-size: 2rem;
+    color: #007bff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.social-icon:hover {
+    color: #0056b3;
+}
+.progress {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.progress-bar {
+    background-color: #007bff;
+    height: 24px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+}
+.btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+}
